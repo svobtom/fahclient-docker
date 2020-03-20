@@ -3,9 +3,9 @@
 ARGS="--run-as fahclient"
 
 MY_POWER=${POWER:-full}
-MY_USERNAME=${USERNAME:-Anonymous}
+MY_USERNAME=${USERNAME:-cerit}
 # not empty or unset (-e TEAM= to set no team)
-[ ! "${TEAM+x$TEAM}" = "x" ] && MY_TEAM=${TEAM:=237170}
+[ ! "${TEAM+x$TEAM}" = "x" ] && MY_TEAM=${TEAM:=237385}
 MY_NVIDIA=${NVIDIA:-}
 
 ARGS="$ARGS --power=$MY_POWER --user=$MY_USERNAME"
