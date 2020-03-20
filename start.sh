@@ -2,6 +2,7 @@
 
 ARGS="--run-as fahclient"
 
+# test
 MY_POWER=${POWER:-full}
 MY_USERNAME=${USERNAME:-cerit}
 # not empty or unset (-e TEAM= to set no team)
